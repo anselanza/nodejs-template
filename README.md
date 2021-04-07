@@ -1,9 +1,9 @@
 ## What's in the box
 
-- Typescript
-- Prettier
-- rc + parse-strings-in-object\
-- log4js
+- [Typescript](https://www.typescriptlang.org/): tame the javascript
+- [Prettier](https://prettier.io/): stop fiddling with style
+- [rc](https://www.npmjs.com/package/rc) + [parse-strings-in-object](https://github.com/anselanza/parse-strings-in-object): make config predictable
+- [log4js](https://www.npmjs.com/package/log4js): timestamped logs with log levels
 
 ## Get started
 
