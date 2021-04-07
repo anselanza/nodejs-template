@@ -2,7 +2,8 @@
 
 - Typescript
 - Prettier
-- rc + parse-strings-in-object
+- rc + parse-strings-in-object\
+- log4js
 
 ## Get started
 

@@ -1,7 +1,9 @@
 import defaults from "./defaults";
 import parse from "parse-strings-in-object";
 import rc from "rc";
+import { getLogger } from "log4js";
 
 const config: typeof defaults = parse(rc("lights", defaults));
 
-console.log("started with config", config);
+const logger = getLogger();
+logger.info("started with config", config);
