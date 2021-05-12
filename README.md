@@ -21,5 +21,6 @@ npm i
 
 Tidy up (might automate this soon):
 
+- Not yet a git repo! `git init`
 - Modify package name, etc. in `package.json`!
 - Modify `README.md` for your project
