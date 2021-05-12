@@ -19,4 +19,7 @@ Install the stuff
 npm i
 ```
 
-Don't forget to modify package name, etc. in `package.json`!
+Tidy up (might automate this soon):
+
+- Modify package name, etc. in `package.json`!
+- Modify `README.md` for your project
