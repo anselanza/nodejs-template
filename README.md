@@ -10,5 +10,13 @@
 Make a new template from the repo:
 
 ```
-npx degit https://github.com/anselanza/nodejs-template my-new-project
+npx degit https://github.com/anselanza/nodejs-template#main my-new-project
 ```
+
+Install the stuff
+
+```
+npm i
+```
+
+Don't forget to modify package name, etc. in `package.json`!
