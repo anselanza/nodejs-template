@@ -1,5 +1,5 @@
 {
-  "name": "your-package-name-here",
+  "name": "app",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
