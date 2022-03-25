@@ -11,3 +11,11 @@ const logger = getLogger(appName);
 logger.level = config.loglevel;
 
 logger.info("started with config", config);
+
+const main = async() => {
+  // Do some async stuff in here!
+}
+
+// ================================================
+// Kick off main process here
+main();
