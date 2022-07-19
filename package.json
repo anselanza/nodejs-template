@@ -1,19 +1,20 @@
 {
   "name": "app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
     "postinstall": "npm run build",
-    "start": "npm run build && node dist/index.js"
+    "start": "npm run build && node dist/index.js",
+    "dev": "npm run build && node dist/index.js --loglevel=debug"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "log4js": "^6.3.0",
-    "parse-strings-in-object": "^1.6",
+    "parse-strings-in-object": "^1.6.0",
     "rc": "^1.2.8"
   },
   "devDependencies": {
