@@ -19,8 +19,13 @@ Install the stuff
 npm i
 ```
 
+This also runs `postinstall` which will do the following:
+
+- Compile everything `npm run build`
+- Initialise a new git repo `git init`
+
 Tidy up (might automate this soon):
 
-- Not yet a git repo! `git init`
-- Modify package name, etc. in `package.json`!
+- Please modify the package name, etc. in `package.json`!
+- In `src/index.ts`, you should set `appName` to something more relevant
 - Modify `README.md` for your project
