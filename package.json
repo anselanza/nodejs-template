@@ -1,12 +1,12 @@
 {
   "name": "app",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
-    "postinstall": "npm run build",
+    "postinstall": "npm run build && git init",
     "start": "npm run build && node dist/index.js",
     "dev": "npm run build && node dist/index.js --loglevel=debug"
   },
