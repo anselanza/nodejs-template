@@ -1,6 +1,6 @@
 const defaults = {
-  foo: "bar",
-  loglevel: "info",
+  appName: "MyApp",
+  loglevel: "info"
 };
 
 export default defaults;
