@@ -1,13 +1,10 @@
 {
-  "extends": "@tsconfig/node22/tsconfig.json",
+  "extends": "@tsconfig/node24/tsconfig.json",
   "compilerOptions": {
     "sourceMap": true,
-    "outDir": "dist",
     "declaration": true,
-    "esModuleInterop": true
+    "outDir": "dist",
+    "rootDir": "./src"
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": []
+  "include": ["src/**/*"]
 }
