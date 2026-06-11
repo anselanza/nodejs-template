@@ -6,9 +6,9 @@ import { z } from "zod";
 
 const appName = defaults.appName;
 
-const parsedConfig = convertFromStrings(rc(appName, defaults));
+const configObject = convertFromStrings(rc(appName, defaults));
 
-const config = configSchema.parse(parsedConfig);
+const config = configSchema.parse(configObject);
 
 const logger = getLogger(appName);
 logger.level = config.loglevel;
