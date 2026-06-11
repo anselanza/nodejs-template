@@ -1,8 +1,8 @@
 {
   "name": "app",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "An opinionated NodeJS project template",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
@@ -15,7 +15,8 @@
   "dependencies": {
     "log4js": "^6.3.0",
     "parse-strings-in-object": "^1.6.0",
-    "rc": "^1.2.8"
+    "rc": "^1.2.8",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",
