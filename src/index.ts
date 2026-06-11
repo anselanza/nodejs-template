@@ -1,11 +1,14 @@
-import defaults from "./defaults";
-import parse from "parse-strings-in-object";
+import { type Config, configSchema, defaults } from "./config";
+import convertFromStrings from "parse-strings-in-object";
 import rc from "rc";
 import { getLogger } from "log4js";
+import { z } from "zod";
 
 const appName = defaults.appName;
 
-const config: typeof defaults = parse(rc(appName, defaults));
+const configObject = convertFromStrings(rc(appName, defaults));
+
+const config = configSchema.parse(configObject);
 
 const logger = getLogger(appName);
 logger.level = config.loglevel;
