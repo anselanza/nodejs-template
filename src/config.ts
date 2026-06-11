@@ -8,6 +8,6 @@ export const configSchema = z.object({
 export type Config = z.infer<typeof configSchema>;
 
 export const defaults: Config = {
-  appName: "MyApp",
+        appName: "myapp",
   loglevel: "info",
 };

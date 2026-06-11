@@ -1,12 +1,12 @@
 {
-  "name": "app",
+  "name": "myApp",
   "version": "0.5.0",
   "description": "An opinionated NodeJS project template",
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
-    "postinstall": "npm run build && git init",
+    "postinstall": "node scripts/init-project.js && npm run build && git init",
     "start": "npx tsx src/index.ts",
     "dev": "npx tsx --watch src/index.js --loglevel=debug"
   },
